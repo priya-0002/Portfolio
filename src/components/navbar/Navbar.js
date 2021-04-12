@@ -17,7 +17,7 @@ const Navbar = () => {
         <div classname ="navbar__menu" onClick={change}>
         { open?<img src={ham} /> :<img src={x} />}
         </div>
-        <div className="navbar__list">
+        <div className={open?"navbar__list__none":"navbar__list"}>
             <ul classname="navbar__list__names">
                 <li> Home</li>
                 <li>About</li>
