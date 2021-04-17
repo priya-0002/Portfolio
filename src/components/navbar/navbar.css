@@ -45,6 +45,7 @@
     top:0;
     bottom:initial;
     left:60%;
+    width: 40%;
     
     }
    .navbar__image{
@@ -52,7 +53,7 @@
    }
 
    .navbar__list__names li{
-       margin-left: 5%;
+       margin-left: 8%;
        color: black;
    }
    .navbar__list{
@@ -62,7 +63,9 @@
 
 
     .navbar__list__names {
-        margin-right: 20%;
+       
+        position: absolute;
+        right: 30%;
     }
      
  }
