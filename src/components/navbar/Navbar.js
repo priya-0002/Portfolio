@@ -12,13 +12,13 @@ const Navbar = () => {
         setOpen(!open)
     }
     return (
-        <div classname="navbar">
+        <div className="navbar">
     
-        <div classname ="navbar__menu" onClick={change}>
-        { open?<img src={ham} /> :<img src={x} />}
+        <div className ="navbar__menu" onClick={change}>
+        { open?<img className="navbar__image" src={ham} /> :<img className="navbar__image" src={x} />}
         </div>
         <div className={open?"navbar__list__none":"navbar__list"}>
-            <ul classname="navbar__list__names">
+            <ul className="navbar__list__names">
                 <li> Home</li>
                 <li>About</li>
                 <li>Contact</li>

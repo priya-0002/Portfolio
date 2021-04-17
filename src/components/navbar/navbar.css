@@ -1,9 +1,9 @@
-img{
+.navbar__image{
     
     float: right;
 
 }
-ul{
+.navbar__list__names{
     
  margin-top: 5%;
  
@@ -31,3 +31,39 @@ ul{
  .navbar__list__none{
      display:none;
  }
+
+ @media only screen and (min-width: 768px){
+
+    .navbar__list__names{
+        display: flex;
+
+        
+    }
+    .navbar__list__none{
+        display:block;
+        position: fixed;
+    top:0;
+    bottom:initial;
+    left:60%;
+    
+    }
+   .navbar__image{
+       display:none
+   }
+
+   .navbar__list__names li{
+       margin-left: 5%;
+       color: black;
+   }
+   .navbar__list{
+       background-color: transparent;
+       bottom: initial;
+   }
+
+
+    .navbar__list__names {
+        margin-right: 20%;
+    }
+     
+ }
+
