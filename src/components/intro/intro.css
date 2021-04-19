@@ -1,9 +1,9 @@
 .intro__image{
-    position: absolute;
+   margin-top: 10em;
     width: 100%;
     z-index: -4;
-    top: 40%;
-    left: 2%;
+
+    
   
 }
 
@@ -12,10 +12,15 @@
    top:15%;
     font-size: 10px;
     left: 15%;
-    z-index: -4;
+   
 }
 
 @media only screen and (min-width: 768px){
+
+    .intro{
+        display: grid;
+        place-items: center;
+    }
 
     .intro__image{
         top: 30%;

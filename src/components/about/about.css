@@ -1,25 +1,25 @@
-.about__profile{
-    position: absolute;
-    width: 40%;
-    top:85%;
-    left:25%;
-}
 
-.about__text{
-    font-size: 10px;
-   position: absolute;
-   top: 120%;
-   left: 30%;
- 
-  z-index: -4;
-}
+
 .about__para{
     font-size: 13px;
     z-index: -4;
     left: 10%;
 }
 
+
+.about{
+    display: grid;
+    place-items: center;
+}
+
+.about__profile{
+    width: 50%;
+}
+
 @media only screen and (min-width: 768px){
+
+   
+
     .about__profile{
         width: 25%;
         top:115%;
@@ -32,7 +32,8 @@
     .about__para{
         font-size: 20px;
     }
-    .about_parent{
+    
+    .about__parent{
         display:flex;
     }
 

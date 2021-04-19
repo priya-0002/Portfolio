@@ -6,7 +6,7 @@ import Typical from 'react-typical'
 
 const intro = () => {
     return (
-        <div>
+        <div className="intro">
               
               <div className="intro__text"> 
               <Typical 
@@ -16,7 +16,7 @@ const intro = () => {
       />
           </div>
           
-            <div > <img className="intro__image"src={pc} alt=""/> </div>
+             <img className="intro__image"src={pc} alt=""/> 
        
            
         </div>
