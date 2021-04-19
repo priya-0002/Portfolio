@@ -1,0 +1,11 @@
+.about__profile{
+    position: absolute;
+    width: 50%;
+    top:80%;
+    left:3%;
+}
+
+.about__parent{
+    position: relative;
+}
+    

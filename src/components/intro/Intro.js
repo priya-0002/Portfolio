@@ -8,8 +8,8 @@ const intro = () => {
     return (
         <div>
               
-              <div > 
-              <Typical className="intro__text"
+              <div className="intro__text"> 
+              <Typical 
         steps={['Hello I am Priya', 1000, 'I am a Web Developer!', 500]}
         loop={Infinity}
         wrapper="h1"
