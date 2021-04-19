@@ -41,7 +41,7 @@
     }
     .navbar__list__none{
         display:block;
-        position: fixed;
+        position: absolute;
     top:0;
     bottom:initial;
     left:60%;
@@ -59,7 +59,7 @@
    .navbar__list{
        background-color: transparent;
        bottom: initial;
-       
+       position: absolute;
    }
 
 
