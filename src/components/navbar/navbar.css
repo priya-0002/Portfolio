@@ -53,12 +53,13 @@
    }
 
    .navbar__list__names li{
-       margin-left: 8%;
+       margin-left: 6%;
        color: black;
    }
    .navbar__list{
        background-color: transparent;
        bottom: initial;
+       
    }
 
 

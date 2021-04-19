@@ -1,11 +1,34 @@
 .about__profile{
     position: absolute;
-    width: 50%;
+    width: 52%;
     top:80%;
     left:3%;
 }
 
-.about__parent{
-    position: relative;
+.about__text{
+    font-size: 10px;
+   position: absolute;
+   top: 85%;
+  left: 55%;
+  z-index: -4;
 }
-    
+.about__para{
+    font-size: 15px;
+    z-index: -4;
+}
+
+@media only screen and (min-width: 768px){
+    .about__profile{
+        width: 25%;
+        top:115%;
+    }
+    .about__text{
+        top: 120%;
+        font-size: 20px;
+    }
+     
+    .about__para{
+        font-size: 20px;
+    }
+
+}
