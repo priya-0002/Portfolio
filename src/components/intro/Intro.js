@@ -1,11 +1,24 @@
 import React from 'react'
-import bg from '../../assets/bg.png'
+import pc from '../../assets/pc.png'
 import "./intro.css"
+import Typical from 'react-typical'
+
 
 const intro = () => {
     return (
         <div>
-            <img className="intro__image" src={bg} alt=""/>
+              
+              <div > 
+              <Typical className="intro__text"
+        steps={['Hello I am Priya', 1000, 'I am a Web Developer!', 500]}
+        loop={Infinity}
+        wrapper="h1"
+      />
+          </div>
+          
+            <div > <img className="intro__image"src={pc} alt=""/> </div>
+       
+           
         </div>
     )
 }
