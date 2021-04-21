@@ -1,0 +1,36 @@
+
+
+
+
+.skill__parent{
+    display: grid;
+    place-items: center;
+    margin-top: 5em;
+}
+
+.skill__image{
+    width: 80%;
+}
+
+@media only screen and (min-width: 768px){
+
+    .skill__parent{
+       
+        margin-top: 5em;
+    }
+
+    .skill__image{
+        width: 35%;
+        
+    }
+    .skill__text{
+        
+        font-size: 20px;
+    }
+     
+   
+    
+    
+}
+
+
