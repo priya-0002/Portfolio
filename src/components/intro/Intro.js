@@ -2,6 +2,8 @@ import React from 'react'
 import pc from '../../assets/pc.png'
 import "./intro.css"
 import Typical from 'react-typical'
+import Zoom from 'react-reveal/Zoom';
+
 
 
 const intro = () => {
@@ -16,7 +18,7 @@ const intro = () => {
       />
           </div>
           
-             <img className="intro__image"src={pc} alt=""/> 
+           <Zoom><img className="intro__image"src={pc} alt=""/> </Zoom>  
        
            
         </div>

@@ -3,6 +3,10 @@ import "./App.css"
 import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
+import Workparent from "./components/work/Workparent";
+
+
+
 
 
 
@@ -15,6 +19,10 @@ function App() {
      <Intro />
      <About />
      <Skills />
+    <Workparent />
+     
+
+ 
      
     </div>
   );

@@ -1,6 +1,7 @@
 import React from 'react'
 import priya from "../../assets/priya.png"
 import "./about.css"
+import Bounce from 'react-reveal/Bounce';
 
 const About = () => {
     return (
@@ -10,7 +11,7 @@ const About = () => {
                 <img className="about__profile"src={priya} alt=""/>
             
             <div className="about__text">
-                <h1>About Me</h1>
+               <Bounce> <h1>About Me</h1></Bounce> 
                 <p className="about__para"> I keep interest in learning new technologies.</p>
             </div>
         </div>
