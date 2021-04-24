@@ -3,7 +3,7 @@ import "./App.css"
 import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
-import Workparent from "./components/work/Workparent";
+import Work from "./components/work/Work";
 
 
 
@@ -19,7 +19,7 @@ function App() {
      <Intro />
      <About />
      <Skills />
-    <Workparent />
+    <Work />
      
 
  
