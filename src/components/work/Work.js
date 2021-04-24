@@ -1,10 +1,6 @@
 import React from 'react'
 import {useState} from 'react';
 import "./work.css"
-import Carousel from 'react-gallery-carousel';
-const images = [900, 800, 700, 600, 500].map((size) => ({
-    src: `https://placedog.net/${size}/${size}`
-  }));
 
 
 
