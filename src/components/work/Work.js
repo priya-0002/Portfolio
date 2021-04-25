@@ -4,47 +4,50 @@ import "./work.css"
 
 
 
+
 const Work = () => {
     
+   
     const[show1,setShow1]=useState(false);
     const[show2,setShow2]=useState(false);
     const[show3,setShow3]=useState(false);
    
    
     const change1 =()=>{
-        setShow1(!show1)
-        setShow2(show2)
-        setShow3(show3)
+        setShow1(true)
+        setShow2(false)
+        setShow3(false)
     }
     
 
     const change2 =()=>{
-        setShow1(show1)
-        setShow2(!show2)
-        setShow3(show3)
+        setShow1(false)
+        setShow2(true)
+        setShow3(false)
     }
 
     const change3 =()=>{
-        setShow1(show1)
-        setShow2(show2)
-        setShow3(!show3)
+        setShow1(false)
+        setShow2(false)
+        setShow3(true)
+        
     }
     return (
-        <div>
-         
-          <div >
-           <button className="work__button" onClick={change1}>cnnnnnnnnnn</button>
-           <button className="work__button" onClick={change2}>nnnnnnnnnn</button>
-           <button className="work__button" onClick={change3}>nnnnnnnnnn</button>
-           </div>
+        <div className="work__parent">
 
-        <div>
-           {show1?<p className="work__para">nnnnnnnnn</p>:null}
-           {show2?<p className="work__para">bbbbbbbbbbb</p>:null}
-           {show3?<p className="work__para">nnnnnnnnnmmmmmmmmmmmmmmmmmmmmmmmmnnnn</p>:null}
-           </div>
+            <h1> Experience</h1>
+         
+          
+           <button className="work__button" onClick={change1}>Innoovatum.com</button>
+           {show1?<div><p className="work__para">Innoovatum.com is a software company having a search engine built for the engineering students.I worked there as an associate engineer for about 1 year.</p> <a href="https://innoovatum.com/">Innoovatum</a></div>:null}
+           <button className="work__button" onClick={change2}>Bijapur offers</button>
+           {show2?<div><p className="work__para">Bijapur Offers is my start up. It is bascially an app having buisness offers been displayed and I work as an Operational Head</p><a href="https://www.bijapuroffers.com/">Bijapur Offers</a></div>:null}
+           <button className="work__button" onClick={change3}>Real time client projects</button>
+           {show3?<div> <p> I have developed few real time projects for different businesses such as for Raymond Franchise and Sunshine production which organises events.</p><a className="link" href="http://raymondsbijapur.in/" target="_blank">Raymond</a> </div>:null}
+         
+          </div>
             
-             </div>
+             
     )
 }
 

@@ -21,9 +21,14 @@
         background-color:blue;
         color:white ;
       }
-      .work__subheading{
-
-         display:flex;
-         
-         }
+    
    
+    .work__parent{
+        display: grid;
+        place-items:center;
+    }
+
+      a{
+    margin-top: 50%;
+    margin-left: 45%;
+    }

@@ -1,0 +1,52 @@
+
+
+.project__para{
+    font-size: 13px;
+    z-index: -4;
+    left: 10%;
+}
+
+
+.project__parent{
+    display: grid;
+    place-items: center;
+    margin-top: 5em;
+}
+
+.project__profile{
+    width: 40%;
+}
+
+@media only screen and (min-width: 768px){
+
+    .project__parent{
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        margin-top: 5em;
+        display:flex;
+    }
+
+    .project__profile{
+        width: 20%;
+        
+    }
+    .project__text{
+        
+        font-size: 20px;
+    }
+     
+    .project__para{
+        font-size: 20px;
+    }
+   
+    .project__changes{
+        display:flex;
+        justify-content: space-around;
+       
+        margin-top: 5em;
+        display:flex;
+
+    }
+
+}
+
