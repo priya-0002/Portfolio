@@ -1,16 +1,21 @@
 
 
-.icon{
+.icon {
    display:inline;
-    width: 100%;
+   align-items: center;
+
+    
 }
-.t {
-    width: 5%;
+.t img {
+    
+    margin-left: 15px;
+    width: 50px;
+    height: 20vh;
 }
 .g{
-    width: 5%;
+    
 }
 
 .l{
-    width: 5%;
+    
 }

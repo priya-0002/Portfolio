@@ -39,11 +39,11 @@ const Work = () => {
          
           
            <button className="work__button" onClick={change1}>Innoovatum.com</button>
-           {show1?<div><p className="work__para">Innoovatum.com is a software company having a search engine built for the engineering students.I worked there as an associate engineer for about 1 year.</p> <a href="https://innoovatum.com/">Innoovatum</a></div>:null}
+           {show1?<div><p className="work__para">Innoovatum.com is a software company having a search engine built for the engineering students.I worked there as an associate engineer for about 1 year.</p> <a className="link" href="https://innoovatum.com/">Innoovatum</a></div>:null}
            <button className="work__button" onClick={change2}>Bijapur offers</button>
-           {show2?<div><p className="work__para">Bijapur Offers is my start up. It is bascially an app having buisness offers been displayed and I work as an Operational Head</p><a href="https://www.bijapuroffers.com/">Bijapur Offers</a></div>:null}
+           {show2?<div><p className="work__para">Bijapur Offers is my start up. It is bascially an app having buisness offers been displayed and I work as an Operational Head</p><a className="link" href="https://www.bijapuroffers.com/">Bijapur Offers</a></div>:null}
            <button className="work__button" onClick={change3}>Real time client projects</button>
-           {show3?<div> <p> I have developed few real time projects for different businesses such as for Raymond Franchise and Sunshine production which organises events.</p><a className="link" href="http://raymondsbijapur.in/" target="_blank">Raymond</a> </div>:null}
+           {show3?<div> <p className="work__para"> I have developed few real time projects for different businesses such as for Raymond Franchise and Sunshine production which organises events.</p><a className="link" href="http://raymondsbijapur.in/" target="_blank">Raymond</a> </div>:null}
          
           </div>
             
