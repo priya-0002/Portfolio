@@ -26,6 +26,7 @@
     .work__parent{
         display: grid;
         place-items:center;
+        margin-top: 10%;
     }
 
      .link a{

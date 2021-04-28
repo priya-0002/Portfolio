@@ -1,21 +1,18 @@
 
 
-.icon {
+.contact__icons {
    display:inline;
-   align-items: center;
-
+  margin-left:40% ;
     
 }
-.t img {
+.contact__icons img {
     
-    margin-left: 15px;
+    margin-left: 30px;
     width: 50px;
-    height: 20vh;
-}
-.g{
     
 }
 
-.l{
-    
+.contact__header{
+    margin-top: 10%;
+
 }

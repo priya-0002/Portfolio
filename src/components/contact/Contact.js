@@ -8,11 +8,11 @@ import "./contact.css"
 const Contact = () => {
     return (
         <div>
-           <h1>Contact </h1>
+           <h1 className="contact__header">Contact </h1>
             
           
                
-            <div className="icon"   >
+            <div className="contact__icons"   >
 
            <a href=""> <img className="t"src={twitter} alt="twitter logo"/></a>
               <a href="https://github.com/priya-0002/"> <img className="g" src={git} alt="github logo"/></a>
