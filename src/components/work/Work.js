@@ -36,7 +36,7 @@ const Work = () => {
         <div className="work__parent">
 
             <h1> Experience</h1>
-         
+         <div className="work__child">
           
            <button className="work__button" onClick={change1}>Innoovatum.com</button>
            {show1?<div><p className="work__para">Innoovatum.com is a software company having a search engine built for the engineering students.I worked there as an associate engineer for about 1 year.</p> <a className="link" href="https://innoovatum.com/">Innoovatum</a></div>:null}
@@ -45,6 +45,8 @@ const Work = () => {
            <button className="work__button" onClick={change3}>Real time client projects</button>
            {show3?<div> <p className="work__para"> I have developed few real time projects for different businesses such as for Raymond Franchise and Sunshine production which organises events.</p><a className="link" href="http://raymondsbijapur.in/" target="_blank">Raymond</a> </div>:null}
          
+           </div>
+
           </div>
             
              
