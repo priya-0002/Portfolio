@@ -5,12 +5,13 @@ import git from '../../assets/git.png'
 import linkedin from '../../assets/linkedin.png'
 import "./contact.css"
 
+
 const Contact = () => {
     return (
         <div>
            <h1 className="contact__header">Contact </h1>
             
-          
+          <button className="button"><span>Say Hello</span></button>
                
             <div className="contact__icons"   >
 
