@@ -21,11 +21,13 @@
 
     .skill__image{
         width: 35%;
+        margin-top: 2%;
         
     }
     .skill__text{
         
         font-size: 20px;
+        
     }
      
    

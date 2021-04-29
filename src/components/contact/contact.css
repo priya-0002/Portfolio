@@ -10,7 +10,11 @@
     margin-left: 35px;
     width: 50px;
     margin-top: 3%;
+    transition: transform .2s; 
     
+}
+.contact__icons img:hover{
+  transform: scale(1.2);
 }
 
 .contact__header{
