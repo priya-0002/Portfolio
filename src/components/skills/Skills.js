@@ -10,7 +10,7 @@ const Skills = () => {
                 
             
             <div className="skill__text">
-                <h1>Skill Level</h1>
+                <h1>Skill Level</h1> <br/>
            
             </div>
 

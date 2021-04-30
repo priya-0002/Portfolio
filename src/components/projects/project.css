@@ -27,7 +27,7 @@
     }
 
     .project__profile{
-        width: 30%;
+        width: 35%;
         transition: transform .2s; 
         
     }
@@ -52,6 +52,11 @@
         display:flex;
 
     }
+    .project__heading h1{
+        margin-top: 6%;
+        margin-left: 45%;
+        }
+    
 
 }
 

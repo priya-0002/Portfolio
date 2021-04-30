@@ -6,6 +6,7 @@ const Project = (props) => {
     const{name,img,head,body}=props;
     return (
         <div>
+            
               <div className={name}>
             
             <img className="project__profile"src={img} alt=""/>
@@ -13,7 +14,7 @@ const Project = (props) => {
 
         
         <div className="project__text">
-            <h1>{head}</h1>
+            <h3>{head}</h3>
             <p className="project__para"> {body}</p>
         </div>
     </div>

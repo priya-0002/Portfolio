@@ -36,13 +36,14 @@ const Work = () => {
         <div className="work__parent">
 
             <h1> Experience</h1>
+            <br/>
          <div className="work__child">
           
-           <button className="work__button" onClick={change1}>Innoovatum.com</button>
+           <button className="work__button" onClick={change1}><h6 className>Innoovatum.com</h6></button>
            
-           <button className="work__button" onClick={change2}>Bijapur offers</button>
+           <button className="work__button" onClick={change2}><h6>Bijapur offers</h6></button>
          
-           <button className="work__button" onClick={change3}>Real time client projects</button>
+           <button className="work__button" onClick={change3}><h6>Real time client projects</h6></button>
          
          
            </div>

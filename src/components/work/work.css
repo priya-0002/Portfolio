@@ -33,12 +33,20 @@
     margin-top: 50%;
     margin-left: 45%;
     }
-
+   
+   
     @media only screen and (min-width: 768px){
     
     .work__child{
       display: flex;
       justify-content: space-around;
-      margin-top: 2%
+      margin-top: 2%;
+    
+    }
+    .work__para p{
+      width:10px;
+    }
+    .work__child h6{
+      font-size: 17px;
     }
   }
