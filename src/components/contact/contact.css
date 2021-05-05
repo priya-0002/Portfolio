@@ -27,6 +27,7 @@
 
 .contact__header{
     margin-top: 10%;
+    font-size: 20px;
 
 
 }
@@ -54,6 +55,7 @@
     display: inline-block;
     position: relative;
     transition: 0.5s;
+    font-size: 20px;
   }
   
   .button span:after {
@@ -82,5 +84,14 @@
     .contact__icons img {
       width: 50px;
     }
+    .button span {
+    
+      font-size: 25px;
+    }
+    .contact__header{
+    margin-top: 10%;
+    font-size: 50px;
+ 
    
   }
+}
