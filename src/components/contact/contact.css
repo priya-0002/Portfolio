@@ -1,14 +1,22 @@
-
+.contact{
+  display: grid;
+  place-items: center;
+}
+.contact__center{
+  
+}
 
 .contact__icons {
-   display:inline;
-  margin-left:40% ;
-    
+  display:inline;
+   
 }
+
+
 .contact__icons img {
     
-    margin-left: 35px;
-    width: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 30px;
     margin-top: 3%;
     transition: transform .2s; 
     
@@ -19,7 +27,7 @@
 
 .contact__header{
     margin-top: 10%;
-    margin-left: 45%;
+
 
 }
 .button {
@@ -36,7 +44,7 @@
     margin: 5px;
     border-radius: 60px;
     width: 50%;
-    margin-left: 25%;
+   
     height: 8vh;
     margin-top:2% ;
   }
@@ -66,4 +74,13 @@
     right: 0;
   }
 
-  
+  @media only screen and (min-width:768px) {
+    .contact__icons {
+      display:inline;
+       
+    }
+    .contact__icons img {
+      width: 50px;
+    }
+   
+  }
