@@ -8,11 +8,11 @@ import "./contact.css"
 
 const Contact = () => {
     return (
-        <div>
+        <div className="contact">
            <h1 className="contact__header">Contact </h1>
             
           <button className="button"><span>Say Hello</span></button>
-               
+             <div className="contact__center"> 
             <div className="contact__icons"   >
 
            <a href=""> <img className="t"src={twitter} alt="twitter logo"/></a>
@@ -21,6 +21,7 @@ const Contact = () => {
                
 
                </div>
+               </div> 
         </div>
     )
 }
