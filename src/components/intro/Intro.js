@@ -14,7 +14,7 @@ const intro = () => {
               <Typical 
         steps={['Hello I am Priya', 1000, 'I am a Web Developer!', 500]}
         loop={Infinity}
-        wrapper="h1"
+        wrapper="p"
       />
           </div>
           
