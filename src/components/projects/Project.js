@@ -2,8 +2,8 @@ import React from 'react'
 
 
 
-const Project = (props) => {
-    const{name,img,head,body}=props;
+const Project = ({name,img,head,body}) => {
+    
     return (
         <div>
             
