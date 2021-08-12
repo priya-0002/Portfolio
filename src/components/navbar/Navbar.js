@@ -19,11 +19,11 @@ const Navbar = () => {
         </div>
         <div className={open?"navbar__list__none":"navbar__list"}>
             <ul className="navbar__list__names">
-                <li> Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Blogs</li>
-                <li>Policy</li>
+                <li><a href="">Home</a> </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skill">skills</a></li>
+                <li><a href="#project">Projects</a></li>
             </ul>
         </div>
         </div>

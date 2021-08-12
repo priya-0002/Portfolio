@@ -5,7 +5,7 @@ import "./skills.css"
 const Skills = () => {
     return (
          
-        <div className="skill__parent">
+        <div id="skill" className="skill__parent">
             
                 
             

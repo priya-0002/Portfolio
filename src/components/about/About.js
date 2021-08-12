@@ -6,7 +6,7 @@ import Bounce from 'react-reveal/Bounce';
 const About = () => {
     return (
        
-        <div className="about__parent">
+        <div id="about" className="about__parent">
             
                 <img className="about__profile"src={priya} alt=""/>
             
