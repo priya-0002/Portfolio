@@ -5,7 +5,7 @@ import React from 'react'
 const Project = ({name,img,head,body}) => {
     
     return (
-        <div>
+        <div id="project">
             
               <div className={name}>
             
@@ -14,7 +14,7 @@ const Project = ({name,img,head,body}) => {
 
         
         <div className="project__text">
-            <h3>{head}</h3>
+            <h3 style={{display: 'grid',placeItems:"center"}}>{head}</h3>
             <p className="project__para"> {body}</p>
         </div>
     </div>

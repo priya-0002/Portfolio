@@ -7,7 +7,7 @@
   width: 6%;
 
 }
-.navbar__list__names{
+.navbar__list__names  {
     
  margin-top: 5%;
  
@@ -17,7 +17,9 @@
 }
    
  
-
+.navbar__list__names a{
+    color:cornsilk;
+}
 
 
  .navbar__list{
@@ -71,6 +73,10 @@
        
         position: absolute;
         right: 30%;
+    }
+    
+    .navbar__list__names a{
+        color:black;
     }
      
  }

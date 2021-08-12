@@ -8,9 +8,9 @@ import blog from "../../assets/blog.png"
 const Projectparent = () => {
     return (
         <div>
-            <div className="project__heading">
-            <h1 className=""> Projects</h1>
-            </div>
+           
+            <h1 className="" style={{display: 'grid',placeItems:"center",marginTop:"20px"}}> Projects</h1>
+           
             <br/>
            <Project name="project__parent" img={css} head="Landing Page "  body="I have used advance css to style my front page"/> <br/> <br/>
            <Project name="project__changes" img={netflix} head="Netflix Landing Page"body="I tried cloning netflix landing page"/> <br/> <br/>
